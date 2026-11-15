@@ -33,6 +33,7 @@ const router = createRouter({
     { path: '/sandbox', name: 'sandbox', component: Sandbox },
     { path: '/pipeline', name: 'pipeline', component: Pipeline },
     { path: '/filter', name: 'filter', component: Filter },
+    { path: '/filter/:id', name: 'filter-detail', component: Filter, props: true },
     { path: '/scene', name: 'scene', component: Scene },
     { path: '/realtime', name: 'realtime', component: Realtime },
     { path: '/crossref', name: 'crossref', component: Crossref },
